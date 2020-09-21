@@ -11,10 +11,10 @@ address: No apply
 copyright: Copyright &copy; 2020 Designed  & Developed  by (https://maycolsanchezsalazar.com)
 
 menu:
-- {name: About, link: '/about'}
+- {name: Nosotros, link: '/about'}
 - {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
-- {name: Contact, link: '/contact'}
+- {name: Contacto, link: '/contact'}
 
 
 #-------------------------------
@@ -52,9 +52,9 @@ social:
 
 # About Section
 blurb:
-  Somos una empresa dedicada a crear experiencias únicas y diferentes en el area de la cocteleria y el cafe .
-  Brindamos el servicio de alquiler y atención de barras móviles para todo tipo de evento , social , familiar , empresarial .
-  contamos con los mejores profesionales de la región , maquinas ,técnicas y herramientas que llevaran tu celebración a otro nivel.
+  Somos una empresa dedicada a crear experiencias únicas y diferentes en el area de la cocteleria y el cafe.
+  <br>Brindamos el servicio de alquiler y atención de barras móviles para todo tipo de evento, social, familiar, empresarial.
+  <br>Contamos con los mejores profesionales de la región, maquinas, técnicas y herramientas que llevaran tu celebración a otro nivel.
 
 blurb-btn-link: '/about'
 blurb-btn-name: Ver Más
