@@ -1,18 +1,19 @@
 ---
 layout: about
-title: About Me
-author: Johnathan Smith
+title: Nosotros
+author: Singular Drinks
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+MISION
+Nacimos con el fin de crear arte y cultura atravez de las bebidas.
+buscamos enseñar, compartir y transmitir a cada persona la magia y creatividad que encierra esta profesion, 
+que mas que enbriagar busca alegrar el alma y el corazon con aromas, sabores y experiencias unicas. 
+Al igual buscamos dignificar la profesion del bartender y el barista y posicionar a manizales 
+como una ciudad con una evolucion gastronomica y una excelente oferta tanto para locales como extranjeros.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+VISION
+Nos visualizamos como una marca referente a nivel nacional en el area de productos y servicios en cocteleria y cafe, 
+estando siempre a la vanguardia y transformacion del mercado. 
+Al igual visionamos a manizales como una ciudad ejemplo a imitar, estando a la par de grandes ciudades del mundo creando asi una cultura del buen beber .
