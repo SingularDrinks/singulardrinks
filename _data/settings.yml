@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Una nueva <br> Experiencia <br> te espera...
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -52,10 +52,12 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Somos una empresa dedicada a crear experiencias únicas y diferentes en el area de la cocteleria y el cafe .
+  Brindamos el servicio de alquiler y atención de barras móviles para todo tipo de evento , social , familiar , empresarial .
+  contamos con los mejores profesionales de la región , maquinas ,técnicas y herramientas que llevaran tu celebración a otro nivel.
 
 blurb-btn-link: '/about'
-blurb-btn-name: know more
+blurb-btn-name: Ver Más
 
 
 # About Page
