@@ -241,20 +241,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "CLASSIC COCKTAILS"
     image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation : "servicio"
+    content : "Hemos creado una lista de los mejores cocktails clasicos, para que escojas a tu gusto, o si conoces alguno, lo elabormos para ti."
     
-  - name: "Jesica Gomez"
+  - name: "Experiencias Singular Drinks"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Servicio"
+    content: "Escoje algunas de nuestras tecnicas y lleva tu celebracion a otro nivel Montajes personalizados y cocteleria de autor Creamos un aura , una ambientacion segun tu gusto o el concepto de la celebracion , asi mismo creamos los cocteles de autor para ti segun tus sabores y perfiles preferidos y los montajes adecuados a la misma . acontinuacion conoce algunos de nuestros trabajos "
     
-  - name: "Jesica Gomez"
+  - name: "Molecular texturas y humos"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Servicio"
+    content: "Manejando todas las normas de seguridad , creamos todo un aura de laboratorio en tu momento veras tecnicas como humos ,esferas y espumas jugando con la parte visual y complementandola con texturas en boca totalmente unicas y diferentes."
 
 
 #-------------------------------
