@@ -11,7 +11,7 @@ address: No apply
 copyright: Copyright &copy; 2020 Designed  & Developed  by (https://maycolsanchezsalazar.com)
 
 menu:
-- {name: Nosotros, link: '/about'}
+- {name: Luis Fernando, link: '/about'}
 - {name: Blog, link: '/blog'}
 - {name: Portfolio, link: '/portfolio'}
 - {name: Contacto, link: '/contact'}
