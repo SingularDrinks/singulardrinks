@@ -1,28 +1,44 @@
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="{{ site.baseurl }}/">
-      {% if site.data.settings.logo %}
-        <img src="{{ site.data.settings.logo | absolute_url }}" alt="{{ site.data.settings.title }}">
-        {% else if %}
-        <h3 class="text-white font-tertiary">{{site.data.settings.title}}</h3>
-      {% endif %}
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
-        </li>
-        {% for link in site.data.settings.menu %}
-          <li class="nav-item {{ class }}">
-            <a class="nav-link" href="{{ link.link }}">{{ link.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+<div id="loader">
+  <div id="status"></div>
+</div>
+<div id="site-header">
+  <header id="header" class="header-block-top">
+    <div class="container">
+      <div class="row">
+        <div class="main-menu">
+          <!-- navbar -->
+          <nav class="navbar navbar-default" id="mainNav">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="logo">
+                <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                  <img src="images/logo.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#banner">Home</a></li>
+                <li><a href="#menu_day">Menu Dia</a></li>
+                <li><a href="#menu_night">Menu Noche</a></li>
+                <li><a href="#reservation">Reservaciones</a></li>
+                <li><a href="#footer">Contáctenos</a></li>
+              </ul>
+            </div>
+            <!-- end nav-collapse -->
+          </nav>
+          <!-- end navbar -->
+        </div>
+      </div>
+      <!-- end row -->
     </div>
-  </nav>
-</header>
+    <!-- end container-fluid -->
+  </header>
+  <!-- end header -->
+</div>
+<!-- end site-header -->
