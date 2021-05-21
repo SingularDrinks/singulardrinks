@@ -66,71 +66,139 @@
 		 
 		  });
 		});
-		
-		/* ========================
-			SLIDER - TAB 
-		=============================*/
-		
-		
-		 $('.slider-single').slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows: false,
-			fade: false,
-			adaptiveHeight: true,
-			infinite: false,
-			useTransform: true,
-			speed: 400,
-			cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
-		 });
-		
-		 $('.slider-nav')
-			.on('init', function(event, slick) {
-				$('.slider-nav .slick-slide.slick-current').addClass('is-active');
-			})
-			.slick({
-				slidesToShow: 7,
-				slidesToScroll: 7,
-				dots: false,
-				focusOnSelect: false,
-				infinite: false,
-				responsive: [{
-					breakpoint: 1024,
-					settings: {
-						slidesToShow: 4,
-						slidesToScroll: 4,
-					}
-				}, {
-					breakpoint: 769,
-					settings: {
-						slidesToShow: 4,
-						slidesToScroll: 4,
-					}
-				}, {
-					breakpoint: 420,
-					settings: {
-						slidesToShow: 3,
-						slidesToScroll: 3,
-				}
-				}]
-			});
-		
-		 $('.slider-single').on('afterChange', function(event, slick, currentSlide) {
-			 console.log(currentSlide);
-			$('.slider-nav').slick('slickGoTo', currentSlide);
-			var currrentNavSlideElem = '.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
-			$('.slider-nav .slick-slide.is-active').removeClass('is-active');
-			$(currrentNavSlideElem).addClass('is-active');
 
-		 });
-		
-		 $('.slider-nav').on('click', '.slick-slide', function(event) {
-			event.preventDefault();
-			var goToSingleSlide = $(this).data('slick-index');
-		
-			$('.slider-single').slick('slickGoTo', goToSingleSlide);
-		 });
-		 
+	/* ========================
+    SLIDER - TAB
+=============================*/
+
+
+	$('.slider-single-menu-day').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: false,
+		adaptiveHeight: true,
+		infinite: false,
+		useTransform: true,
+		speed: 400,
+		cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+	});
+
+
+	$('.slider-nav-menu-day')
+		.on('init', function(event, slick) {
+			$('.slider-nav-menu-day .slick-slide.slick-current').addClass('is-active');
+		})
+		.slick({
+			slidesToShow: 7,
+			slidesToScroll: 7,
+			dots: false,
+			focusOnSelect: false,
+			infinite: false,
+			responsive: [{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 4,
+				}
+			}, {
+				breakpoint: 769,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 4,
+				}
+			}, {
+				breakpoint: 420,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+				}
+			}]
+		});
+
+
+
+	$('.slider-single-menu-day').on('afterChange', function(event, slick, currentSlide) {
+		$('.slider-nav-menu-day').slick('slickGoTo', currentSlide);
+		var currrentNavSlideElem = '.slider-nav-menu-day .slick-slide[data-slick-index="' + currentSlide + '"]';
+		$('.slider-nav-menu-day .slick-slide.is-active').removeClass('is-active');
+		$(currrentNavSlideElem).addClass('is-active');
+
+	});
+
+	$('.slider-nav-menu-day').on('click', '.slick-slide', function(event) {
+		event.preventDefault();
+		var goToSingleSlide = $(this).data('slick-index');
+
+		$('.slider-single-menu-day').slick('slickGoTo', goToSingleSlide);
+	});
+
+
+	/* ========================
+   SLIDER MENU NIGHT - TAB
+=============================*/
+
+
+	$('.slider-single-menu-night').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: false,
+		adaptiveHeight: true,
+		infinite: false,
+		useTransform: true,
+		speed: 400,
+		cssEase: 'cubic-bezier(0.77, 0, 0.18, 1)',
+	});
+
+
+	$('.slider-nav-menu-night')
+		.on('init', function(event, slick) {
+			$('.slider-nav-menu-night .slick-slide.slick-current').addClass('is-active');
+		})
+		.slick({
+			slidesToShow: 5,
+			slidesToScroll: 5,
+			dots: false,
+			focusOnSelect: false,
+			infinite: false,
+			responsive: [{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 4,
+				}
+			}, {
+				breakpoint: 769,
+				settings: {
+					slidesToShow: 4,
+					slidesToScroll: 4,
+				}
+			}, {
+				breakpoint: 420,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3,
+				}
+			}]
+		});
+
+
+
+	$('.slider-single-menu-night').on('afterChange', function(event, slick, currentSlide) {
+		$('.slider-nav-menu-night').slick('slickGoTo', currentSlide);
+		var currrentNavSlideElem = '.slider-nav-menu-night .slick-slide[data-slick-index="' + currentSlide + '"]';
+		$('.slider-nav-menu-night .slick-slide.is-active').removeClass('is-active');
+		$(currrentNavSlideElem).addClass('is-active');
+
+	});
+
+	$('.slider-nav-menu-night').on('click', '.slick-slide', function(event) {
+		event.preventDefault();
+		var goToSingleSlide = $(this).data('slick-index');
+
+		$('.slider-single-menu-night').slick('slickGoTo', goToSingleSlide);
+	});
 		
 		/* ========================
 			WOW ANIMATION
