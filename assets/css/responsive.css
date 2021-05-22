@@ -313,7 +313,7 @@
 @media (max-width: 480px) {
 
 	.banner {
-		background:#202020 url(../images/banner_mobile_c.jpg) no-repeat center top;
+		background:#1d2026 url(../images/banner_mobile_c.jpg) no-repeat center top;
 		background-size: inherit;
 	}
 
