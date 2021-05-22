@@ -188,6 +188,7 @@
 		margin: 0px 0px;
 	}
 	.banner {
+		background:#202020 url(../images/banner_mobile.jpg) no-repeat center top;
 		min-height: 800px !important;
 		background-size: inherit;
 	}
