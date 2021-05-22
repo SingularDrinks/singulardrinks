@@ -314,10 +314,9 @@
 
 	.banner {
 		background:#202020 url(../images/banner_mobile_cel.jpg) no-repeat center top;
-		min-height: 660px !important;
 		background-size: inherit;
 	}
-	
+
 	.offer-item img{
 		width: 50%;
 	}
